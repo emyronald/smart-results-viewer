@@ -1,0 +1,3350 @@
+{
+  "students": [
+    {
+      "id": "2",
+      "name": "Amaka Chukwu",
+      "regNo": "JS1/002",
+      "class": "JS1"
+    },
+    {
+      "id": "3",
+      "name": "Chisom Okoro",
+      "regNo": "JS1/003",
+      "class": "JS1"
+    },
+    {
+      "id": "4",
+      "name": "Ngozi Adeleke",
+      "regNo": "JS1/004",
+      "class": "JS1"
+    },
+    {
+      "id": "5",
+      "name": "Tunde Okafor",
+      "regNo": "JS1/005",
+      "class": "JS1"
+    },
+    {
+      "id": "6",
+      "name": "Grace Eze",
+      "regNo": "JS2/001",
+      "class": "JS2"
+    },
+    {
+      "id": "7",
+      "name": "David Nwankwo",
+      "regNo": "JS2/002",
+      "class": "JS2"
+    },
+    {
+      "id": "8",
+      "name": "Blessing Oluwaseun",
+      "regNo": "JS2/003",
+      "class": "JS2"
+    },
+    {
+      "id": "9",
+      "name": "Precious Afolabi",
+      "regNo": "JS2/004",
+      "class": "JS2"
+    },
+    {
+      "id": "10",
+      "name": "Ibrahim Hassan",
+      "regNo": "JS2/005",
+      "class": "JS2"
+    },
+    {
+      "id": "11",
+      "name": "Zainab Abdullahi",
+      "regNo": "JS3/001",
+      "class": "JS3"
+    },
+    {
+      "id": "12",
+      "name": "Kayode Adeyemi",
+      "regNo": "JS3/002",
+      "class": "JS3"
+    },
+    {
+      "id": "13",
+      "name": "Ifeoma Nnamdi",
+      "regNo": "JS3/003",
+      "class": "JS3"
+    },
+    {
+      "id": "14",
+      "name": "Samuel Okeke",
+      "regNo": "JS3/004",
+      "class": "JS3"
+    },
+    {
+      "id": "15",
+      "name": "Chioma Uche",
+      "regNo": "JS3/005",
+      "class": "JS3"
+    },
+    {
+      "id": "16",
+      "name": "Adekunle Babajide",
+      "regNo": "SS1/001",
+      "class": "SS1"
+    },
+    {
+      "id": "17",
+      "name": "Folake Okonkwo",
+      "regNo": "SS1/002",
+      "class": "SS1"
+    },
+    {
+      "id": "18",
+      "name": "Oluwaseun Adebayo",
+      "regNo": "SS1/003",
+      "class": "SS1"
+    },
+    {
+      "id": "19",
+      "name": "Victoria Inyene",
+      "regNo": "SS1/004",
+      "class": "SS1"
+    },
+    {
+      "id": "20",
+      "name": "Chinedu Igwilo",
+      "regNo": "SS1/005",
+      "class": "SS1"
+    },
+    {
+      "id": "21",
+      "name": "Mirabel Adomako",
+      "regNo": "SS2/001",
+      "class": "SS2"
+    },
+    {
+      "id": "22",
+      "name": "Emeka Obinna",
+      "regNo": "SS2/002",
+      "class": "SS2"
+    },
+    {
+      "id": "23",
+      "name": "Uju Okoro",
+      "regNo": "SS2/003",
+      "class": "SS2"
+    },
+    {
+      "id": "24",
+      "name": "Daniel Ayokunle",
+      "regNo": "SS2/004",
+      "class": "SS2"
+    },
+    {
+      "id": "25",
+      "name": "Stella Ezeoke",
+      "regNo": "SS2/005",
+      "class": "SS2"
+    },
+    {
+      "id": "26",
+      "name": "Tobias Okafor",
+      "regNo": "SS3/001",
+      "class": "SS3"
+    },
+    {
+      "id": "27",
+      "name": "Janet Owusu",
+      "regNo": "SS3/002",
+      "class": "SS3"
+    },
+    {
+      "id": "28",
+      "name": "Chidera Nweke",
+      "regNo": "SS3/003",
+      "class": "SS3"
+    },
+    {
+      "id": "30",
+      "name": "Adeyinka Olopade",
+      "regNo": "SS3/005",
+      "class": "SS3"
+    },
+    {
+      "id": "4cf5",
+      "name": "Agu Dennis",
+      "regNo": "JS1/001",
+      "class": "JSS1"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "1",
+      "name": "2024/2025"
+    }
+  ],
+  "terms": [
+    {
+      "id": "1",
+      "name": "First Term"
+    },
+    {
+      "id": "2",
+      "name": "Second Term"
+    },
+    {
+      "id": "3",
+      "name": "Third Term"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "1",
+      "name": "Mathematics"
+    },
+    {
+      "id": "2",
+      "name": "English"
+    },
+    {
+      "id": "3",
+      "name": "Biology"
+    },
+    {
+      "id": "4",
+      "name": "Chemistry"
+    },
+    {
+      "id": "5",
+      "name": "Physics"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "1",
+      "name": "Samuel Adeniyi",
+      "email": "s.adeniyi@example.com",
+      "classes": [
+        "JS1"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Nkechi Obi",
+      "email": "n.obi@example.com",
+      "classes": [
+        "JS2"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Ibrahim Sani",
+      "email": "i.sani@example.com",
+      "classes": [
+        "JS3"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Amina Yusuf",
+      "email": "a.yusuf@example.com",
+      "classes": [
+        "SS1"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Peter Nwosu",
+      "email": "p.nwosu@example.com",
+      "classes": [
+        "SS2"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Grace Eze",
+      "email": "g.eze@example.com",
+      "classes": [
+        "SS3"
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "2",
+      "studentId": 2,
+      "sessionId": 1,
+      "termId": 1,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 12,
+          "exam": 60,
+          "total": 72
+        },
+        {
+          "subjectId": 2,
+          "ca": 11,
+          "exam": 54,
+          "total": 65
+        },
+        {
+          "subjectId": 3,
+          "ca": 15,
+          "exam": 73,
+          "total": 88
+        },
+        {
+          "subjectId": 4,
+          "ca": 16,
+          "exam": 74,
+          "total": 90
+        },
+        {
+          "subjectId": 5,
+          "ca": 13,
+          "exam": 62,
+          "total": 75
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "studentId": 3,
+      "sessionId": 1,
+      "termId": 1,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 13,
+          "exam": 65,
+          "total": 78
+        },
+        {
+          "subjectId": 2,
+          "ca": 14,
+          "exam": 68,
+          "total": 82
+        },
+        {
+          "subjectId": 3,
+          "ca": 13,
+          "exam": 66,
+          "total": 79
+        },
+        {
+          "subjectId": 4,
+          "ca": 15,
+          "exam": 70,
+          "total": 85
+        },
+        {
+          "subjectId": 5,
+          "ca": 15,
+          "exam": 73,
+          "total": 88
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "studentId": 4,
+      "sessionId": 1,
+      "termId": 1,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 16,
+          "exam": 75,
+          "total": 91
+        },
+        {
+          "subjectId": 2,
+          "ca": 15,
+          "exam": 73,
+          "total": 88
+        },
+        {
+          "subjectId": 3,
+          "ca": 15,
+          "exam": 70,
+          "total": 85
+        },
+        {
+          "subjectId": 4,
+          "ca": 14,
+          "exam": 68,
+          "total": 82
+        },
+        {
+          "subjectId": 5,
+          "ca": 15,
+          "exam": 74,
+          "total": 89
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "studentId": 5,
+      "sessionId": 1,
+      "termId": 1,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 11,
+          "exam": 57,
+          "total": 68
+        },
+        {
+          "subjectId": 2,
+          "ca": 13,
+          "exam": 62,
+          "total": 75
+        },
+        {
+          "subjectId": 3,
+          "ca": 12,
+          "exam": 59,
+          "total": 71
+        },
+        {
+          "subjectId": 4,
+          "ca": 14,
+          "exam": 65,
+          "total": 79
+        },
+        {
+          "subjectId": 5,
+          "ca": 12,
+          "exam": 61,
+          "total": 73
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "studentId": 6,
+      "sessionId": 1,
+      "termId": 1,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 14,
+          "exam": 66,
+          "total": 80
+        },
+        {
+          "subjectId": 2,
+          "ca": 15,
+          "exam": 72,
+          "total": 87
+        },
+        {
+          "subjectId": 3,
+          "ca": 15,
+          "exam": 69,
+          "total": 84
+        },
+        {
+          "subjectId": 4,
+          "ca": 15,
+          "exam": 71,
+          "total": 86
+        },
+        {
+          "subjectId": 5,
+          "ca": 14,
+          "exam": 68,
+          "total": 82
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "studentId": 7,
+      "sessionId": 1,
+      "termId": 1,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 13,
+          "exam": 61,
+          "total": 74
+        },
+        {
+          "subjectId": 2,
+          "ca": 12,
+          "exam": 58,
+          "total": 70
+        },
+        {
+          "subjectId": 3,
+          "ca": 13,
+          "exam": 63,
+          "total": 76
+        },
+        {
+          "subjectId": 4,
+          "ca": 12,
+          "exam": 61,
+          "total": 73
+        },
+        {
+          "subjectId": 5,
+          "ca": 14,
+          "exam": 64,
+          "total": 78
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "studentId": 8,
+      "sessionId": 1,
+      "termId": 1,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 15,
+          "exam": 74,
+          "total": 89
+        },
+        {
+          "subjectId": 2,
+          "ca": 16,
+          "exam": 75,
+          "total": 91
+        },
+        {
+          "subjectId": 3,
+          "ca": 15,
+          "exam": 72,
+          "total": 87
+        },
+        {
+          "subjectId": 4,
+          "ca": 16,
+          "exam": 74,
+          "total": 90
+        },
+        {
+          "subjectId": 5,
+          "ca": 15,
+          "exam": 71,
+          "total": 86
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "studentId": 10,
+      "sessionId": 1,
+      "termId": 1,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 11,
+          "exam": 54,
+          "total": 65
+        },
+        {
+          "subjectId": 2,
+          "ca": 12,
+          "exam": 60,
+          "total": 72
+        },
+        {
+          "subjectId": 3,
+          "ca": 11,
+          "exam": 57,
+          "total": 68
+        },
+        {
+          "subjectId": 4,
+          "ca": 13,
+          "exam": 63,
+          "total": 76
+        },
+        {
+          "subjectId": 5,
+          "ca": 12,
+          "exam": 58,
+          "total": 70
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "studentId": 11,
+      "sessionId": 1,
+      "termId": 1,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 15,
+          "exam": 73,
+          "total": 88
+        },
+        {
+          "subjectId": 2,
+          "ca": 15,
+          "exam": 70,
+          "total": 85
+        },
+        {
+          "subjectId": 3,
+          "ca": 16,
+          "exam": 74,
+          "total": 90
+        },
+        {
+          "subjectId": 4,
+          "ca": 15,
+          "exam": 72,
+          "total": 87
+        },
+        {
+          "subjectId": 5,
+          "ca": 14,
+          "exam": 70,
+          "total": 84
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "studentId": 12,
+      "sessionId": 1,
+      "termId": 1,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 14,
+          "exam": 67,
+          "total": 81
+        },
+        {
+          "subjectId": 2,
+          "ca": 13,
+          "exam": 66,
+          "total": 79
+        },
+        {
+          "subjectId": 3,
+          "ca": 15,
+          "exam": 68,
+          "total": 83
+        },
+        {
+          "subjectId": 4,
+          "ca": 14,
+          "exam": 66,
+          "total": 80
+        },
+        {
+          "subjectId": 5,
+          "ca": 15,
+          "exam": 70,
+          "total": 85
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "studentId": 13,
+      "sessionId": 1,
+      "termId": 1,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 16,
+          "exam": 76,
+          "total": 92
+        },
+        {
+          "subjectId": 2,
+          "ca": 15,
+          "exam": 74,
+          "total": 89
+        },
+        {
+          "subjectId": 3,
+          "ca": 17,
+          "exam": 77,
+          "total": 94
+        },
+        {
+          "subjectId": 4,
+          "ca": 16,
+          "exam": 75,
+          "total": 91
+        },
+        {
+          "subjectId": 5,
+          "ca": 15,
+          "exam": 73,
+          "total": 88
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "studentId": 14,
+      "sessionId": 1,
+      "termId": 1,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 13,
+          "exam": 63,
+          "total": 76
+        },
+        {
+          "subjectId": 2,
+          "ca": 12,
+          "exam": 61,
+          "total": 73
+        },
+        {
+          "subjectId": 3,
+          "ca": 13,
+          "exam": 62,
+          "total": 75
+        },
+        {
+          "subjectId": 4,
+          "ca": 13,
+          "exam": 65,
+          "total": 78
+        },
+        {
+          "subjectId": 5,
+          "ca": 13,
+          "exam": 64,
+          "total": 77
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "studentId": 15,
+      "sessionId": 1,
+      "termId": 1,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 14,
+          "exam": 70,
+          "total": 84
+        },
+        {
+          "subjectId": 2,
+          "ca": 15,
+          "exam": 71,
+          "total": 86
+        },
+        {
+          "subjectId": 3,
+          "ca": 14,
+          "exam": 68,
+          "total": 82
+        },
+        {
+          "subjectId": 4,
+          "ca": 15,
+          "exam": 74,
+          "total": 89
+        },
+        {
+          "subjectId": 5,
+          "ca": 15,
+          "exam": 72,
+          "total": 87
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "studentId": 16,
+      "sessionId": 1,
+      "termId": 1,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 13,
+          "exam": 66,
+          "total": 79
+        },
+        {
+          "subjectId": 2,
+          "ca": 14,
+          "exam": 67,
+          "total": 81
+        },
+        {
+          "subjectId": 3,
+          "ca": 14,
+          "exam": 69,
+          "total": 83
+        },
+        {
+          "subjectId": 4,
+          "ca": 15,
+          "exam": 70,
+          "total": 85
+        },
+        {
+          "subjectId": 5,
+          "ca": 14,
+          "exam": 66,
+          "total": 80
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "studentId": 17,
+      "sessionId": 1,
+      "termId": 1,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 15,
+          "exam": 71,
+          "total": 86
+        },
+        {
+          "subjectId": 2,
+          "ca": 15,
+          "exam": 73,
+          "total": 88
+        },
+        {
+          "subjectId": 3,
+          "ca": 15,
+          "exam": 70,
+          "total": 85
+        },
+        {
+          "subjectId": 4,
+          "ca": 15,
+          "exam": 72,
+          "total": 87
+        },
+        {
+          "subjectId": 5,
+          "ca": 14,
+          "exam": 70,
+          "total": 84
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "studentId": 18,
+      "sessionId": 1,
+      "termId": 1,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 12,
+          "exam": 61,
+          "total": 73
+        },
+        {
+          "subjectId": 2,
+          "ca": 13,
+          "exam": 63,
+          "total": 76
+        },
+        {
+          "subjectId": 3,
+          "ca": 13,
+          "exam": 61,
+          "total": 74
+        },
+        {
+          "subjectId": 4,
+          "ca": 13,
+          "exam": 64,
+          "total": 77
+        },
+        {
+          "subjectId": 5,
+          "ca": 13,
+          "exam": 62,
+          "total": 75
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "studentId": 19,
+      "sessionId": 1,
+      "termId": 1,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 16,
+          "exam": 74,
+          "total": 90
+        },
+        {
+          "subjectId": 2,
+          "ca": 16,
+          "exam": 76,
+          "total": 92
+        },
+        {
+          "subjectId": 3,
+          "ca": 15,
+          "exam": 74,
+          "total": 89
+        },
+        {
+          "subjectId": 4,
+          "ca": 16,
+          "exam": 75,
+          "total": 91
+        },
+        {
+          "subjectId": 5,
+          "ca": 15,
+          "exam": 73,
+          "total": 88
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "studentId": 20,
+      "sessionId": 1,
+      "termId": 1,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 11,
+          "exam": 56,
+          "total": 67
+        },
+        {
+          "subjectId": 2,
+          "ca": 13,
+          "exam": 61,
+          "total": 74
+        },
+        {
+          "subjectId": 3,
+          "ca": 12,
+          "exam": 58,
+          "total": 70
+        },
+        {
+          "subjectId": 4,
+          "ca": 12,
+          "exam": 60,
+          "total": 72
+        },
+        {
+          "subjectId": 5,
+          "ca": 11,
+          "exam": 57,
+          "total": 68
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "studentId": 21,
+      "sessionId": 1,
+      "termId": 1,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 14,
+          "exam": 68,
+          "total": 82
+        },
+        {
+          "subjectId": 2,
+          "ca": 14,
+          "exam": 70,
+          "total": 84
+        },
+        {
+          "subjectId": 3,
+          "ca": 15,
+          "exam": 71,
+          "total": 86
+        },
+        {
+          "subjectId": 4,
+          "ca": 14,
+          "exam": 69,
+          "total": 83
+        },
+        {
+          "subjectId": 5,
+          "ca": 14,
+          "exam": 67,
+          "total": 81
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "studentId": 22,
+      "sessionId": 1,
+      "termId": 1,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 13,
+          "exam": 62,
+          "total": 75
+        },
+        {
+          "subjectId": 2,
+          "ca": 13,
+          "exam": 64,
+          "total": 77
+        },
+        {
+          "subjectId": 3,
+          "ca": 14,
+          "exam": 65,
+          "total": 79
+        },
+        {
+          "subjectId": 4,
+          "ca": 14,
+          "exam": 67,
+          "total": 81
+        },
+        {
+          "subjectId": 5,
+          "ca": 13,
+          "exam": 63,
+          "total": 76
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "studentId": 23,
+      "sessionId": 1,
+      "termId": 1,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 15,
+          "exam": 72,
+          "total": 87
+        },
+        {
+          "subjectId": 2,
+          "ca": 15,
+          "exam": 74,
+          "total": 89
+        },
+        {
+          "subjectId": 3,
+          "ca": 16,
+          "exam": 75,
+          "total": 91
+        },
+        {
+          "subjectId": 4,
+          "ca": 15,
+          "exam": 73,
+          "total": 88
+        },
+        {
+          "subjectId": 5,
+          "ca": 15,
+          "exam": 71,
+          "total": 86
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "studentId": 24,
+      "sessionId": 1,
+      "termId": 1,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 12,
+          "exam": 58,
+          "total": 70
+        },
+        {
+          "subjectId": 2,
+          "ca": 12,
+          "exam": 60,
+          "total": 72
+        },
+        {
+          "subjectId": 3,
+          "ca": 12,
+          "exam": 59,
+          "total": 71
+        },
+        {
+          "subjectId": 4,
+          "ca": 13,
+          "exam": 61,
+          "total": 74
+        },
+        {
+          "subjectId": 5,
+          "ca": 12,
+          "exam": 57,
+          "total": 69
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "studentId": 25,
+      "sessionId": 1,
+      "termId": 1,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 16,
+          "exam": 77,
+          "total": 93
+        },
+        {
+          "subjectId": 2,
+          "ca": 16,
+          "exam": 74,
+          "total": 90
+        },
+        {
+          "subjectId": 3,
+          "ca": 16,
+          "exam": 76,
+          "total": 92
+        },
+        {
+          "subjectId": 4,
+          "ca": 17,
+          "exam": 77,
+          "total": 94
+        },
+        {
+          "subjectId": 5,
+          "ca": 16,
+          "exam": 75,
+          "total": 91
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "studentId": 26,
+      "sessionId": 1,
+      "termId": 1,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 14,
+          "exam": 66,
+          "total": 80
+        },
+        {
+          "subjectId": 2,
+          "ca": 14,
+          "exam": 68,
+          "total": 82
+        },
+        {
+          "subjectId": 3,
+          "ca": 15,
+          "exam": 69,
+          "total": 84
+        },
+        {
+          "subjectId": 4,
+          "ca": 14,
+          "exam": 67,
+          "total": 81
+        },
+        {
+          "subjectId": 5,
+          "ca": 13,
+          "exam": 66,
+          "total": 79
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "studentId": 27,
+      "sessionId": 1,
+      "termId": 1,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 15,
+          "exam": 70,
+          "total": 85
+        },
+        {
+          "subjectId": 2,
+          "ca": 15,
+          "exam": 72,
+          "total": 87
+        },
+        {
+          "subjectId": 3,
+          "ca": 15,
+          "exam": 71,
+          "total": 86
+        },
+        {
+          "subjectId": 4,
+          "ca": 15,
+          "exam": 73,
+          "total": 88
+        },
+        {
+          "subjectId": 5,
+          "ca": 14,
+          "exam": 69,
+          "total": 83
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "studentId": 28,
+      "sessionId": 1,
+      "termId": 1,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 13,
+          "exam": 65,
+          "total": 78
+        },
+        {
+          "subjectId": 2,
+          "ca": 14,
+          "exam": 66,
+          "total": 80
+        },
+        {
+          "subjectId": 3,
+          "ca": 13,
+          "exam": 64,
+          "total": 77
+        },
+        {
+          "subjectId": 4,
+          "ca": 13,
+          "exam": 66,
+          "total": 79
+        },
+        {
+          "subjectId": 5,
+          "ca": 14,
+          "exam": 67,
+          "total": 81
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "studentId": 30,
+      "sessionId": 1,
+      "termId": 1,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 15,
+          "exam": 74,
+          "total": 89
+        },
+        {
+          "subjectId": 2,
+          "ca": 16,
+          "exam": 75,
+          "total": 91
+        },
+        {
+          "subjectId": 3,
+          "ca": 16,
+          "exam": 74,
+          "total": 90
+        },
+        {
+          "subjectId": 4,
+          "ca": 16,
+          "exam": 76,
+          "total": 92
+        },
+        {
+          "subjectId": 5,
+          "ca": 15,
+          "exam": 72,
+          "total": 87
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "studentId": 2,
+      "sessionId": 1,
+      "termId": 2,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 13,
+          "exam": 61,
+          "total": 74
+        },
+        {
+          "subjectId": 2,
+          "ca": 12,
+          "exam": 62,
+          "total": 74
+        },
+        {
+          "subjectId": 3,
+          "ca": 12,
+          "exam": 60,
+          "total": 72
+        },
+        {
+          "subjectId": 4,
+          "ca": 13,
+          "exam": 62,
+          "total": 75
+        },
+        {
+          "subjectId": 5,
+          "ca": 12,
+          "exam": 61,
+          "total": 73
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "studentId": 3,
+      "sessionId": 1,
+      "termId": 2,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 14,
+          "exam": 65,
+          "total": 79
+        },
+        {
+          "subjectId": 2,
+          "ca": 13,
+          "exam": 63,
+          "total": 76
+        },
+        {
+          "subjectId": 3,
+          "ca": 13,
+          "exam": 64,
+          "total": 77
+        },
+        {
+          "subjectId": 4,
+          "ca": 13,
+          "exam": 62,
+          "total": 75
+        },
+        {
+          "subjectId": 5,
+          "ca": 13,
+          "exam": 63,
+          "total": 76
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "studentId": 4,
+      "sessionId": 1,
+      "termId": 2,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 11,
+          "exam": 58,
+          "total": 69
+        },
+        {
+          "subjectId": 2,
+          "ca": 12,
+          "exam": 60,
+          "total": 72
+        },
+        {
+          "subjectId": 3,
+          "ca": 11,
+          "exam": 59,
+          "total": 70
+        },
+        {
+          "subjectId": 4,
+          "ca": 12,
+          "exam": 60,
+          "total": 72
+        },
+        {
+          "subjectId": 5,
+          "ca": 12,
+          "exam": 61,
+          "total": 73
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "studentId": 5,
+      "sessionId": 1,
+      "termId": 2,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 15,
+          "exam": 70,
+          "total": 85
+        },
+        {
+          "subjectId": 2,
+          "ca": 14,
+          "exam": 68,
+          "total": 82
+        },
+        {
+          "subjectId": 3,
+          "ca": 14,
+          "exam": 69,
+          "total": 83
+        },
+        {
+          "subjectId": 4,
+          "ca": 14,
+          "exam": 68,
+          "total": 82
+        },
+        {
+          "subjectId": 5,
+          "ca": 13,
+          "exam": 67,
+          "total": 80
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "studentId": 6,
+      "sessionId": 1,
+      "termId": 2,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 12,
+          "exam": 62,
+          "total": 74
+        },
+        {
+          "subjectId": 2,
+          "ca": 13,
+          "exam": 63,
+          "total": 76
+        },
+        {
+          "subjectId": 3,
+          "ca": 12,
+          "exam": 61,
+          "total": 73
+        },
+        {
+          "subjectId": 4,
+          "ca": 12,
+          "exam": 62,
+          "total": 74
+        },
+        {
+          "subjectId": 5,
+          "ca": 12,
+          "exam": 62,
+          "total": 74
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "studentId": 7,
+      "sessionId": 1,
+      "termId": 2,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 13,
+          "exam": 64,
+          "total": 77
+        },
+        {
+          "subjectId": 2,
+          "ca": 13,
+          "exam": 63,
+          "total": 76
+        },
+        {
+          "subjectId": 3,
+          "ca": 13,
+          "exam": 62,
+          "total": 75
+        },
+        {
+          "subjectId": 4,
+          "ca": 13,
+          "exam": 63,
+          "total": 76
+        },
+        {
+          "subjectId": 5,
+          "ca": 12,
+          "exam": 61,
+          "total": 73
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "studentId": 8,
+      "sessionId": 1,
+      "termId": 2,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 14,
+          "exam": 66,
+          "total": 80
+        },
+        {
+          "subjectId": 2,
+          "ca": 14,
+          "exam": 65,
+          "total": 79
+        },
+        {
+          "subjectId": 3,
+          "ca": 14,
+          "exam": 66,
+          "total": 80
+        },
+        {
+          "subjectId": 4,
+          "ca": 14,
+          "exam": 65,
+          "total": 79
+        },
+        {
+          "subjectId": 5,
+          "ca": 13,
+          "exam": 64,
+          "total": 77
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "studentId": 10,
+      "sessionId": 1,
+      "termId": 2,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 12,
+          "exam": 60,
+          "total": 72
+        },
+        {
+          "subjectId": 2,
+          "ca": 12,
+          "exam": 61,
+          "total": 73
+        },
+        {
+          "subjectId": 3,
+          "ca": 12,
+          "exam": 62,
+          "total": 74
+        },
+        {
+          "subjectId": 4,
+          "ca": 12,
+          "exam": 60,
+          "total": 72
+        },
+        {
+          "subjectId": 5,
+          "ca": 11,
+          "exam": 59,
+          "total": 70
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "studentId": 11,
+      "sessionId": 1,
+      "termId": 2,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 13,
+          "exam": 61,
+          "total": 74
+        },
+        {
+          "subjectId": 2,
+          "ca": 12,
+          "exam": 62,
+          "total": 74
+        },
+        {
+          "subjectId": 3,
+          "ca": 12,
+          "exam": 60,
+          "total": 72
+        },
+        {
+          "subjectId": 4,
+          "ca": 13,
+          "exam": 62,
+          "total": 75
+        },
+        {
+          "subjectId": 5,
+          "ca": 12,
+          "exam": 61,
+          "total": 73
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "studentId": 12,
+      "sessionId": 1,
+      "termId": 2,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 14,
+          "exam": 65,
+          "total": 79
+        },
+        {
+          "subjectId": 2,
+          "ca": 13,
+          "exam": 63,
+          "total": 76
+        },
+        {
+          "subjectId": 3,
+          "ca": 13,
+          "exam": 64,
+          "total": 77
+        },
+        {
+          "subjectId": 4,
+          "ca": 13,
+          "exam": 62,
+          "total": 75
+        },
+        {
+          "subjectId": 5,
+          "ca": 13,
+          "exam": 63,
+          "total": 76
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "studentId": 13,
+      "sessionId": 1,
+      "termId": 2,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 11,
+          "exam": 58,
+          "total": 69
+        },
+        {
+          "subjectId": 2,
+          "ca": 12,
+          "exam": 60,
+          "total": 72
+        },
+        {
+          "subjectId": 3,
+          "ca": 11,
+          "exam": 59,
+          "total": 70
+        },
+        {
+          "subjectId": 4,
+          "ca": 12,
+          "exam": 60,
+          "total": 72
+        },
+        {
+          "subjectId": 5,
+          "ca": 12,
+          "exam": 61,
+          "total": 73
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "studentId": 14,
+      "sessionId": 1,
+      "termId": 2,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 15,
+          "exam": 70,
+          "total": 85
+        },
+        {
+          "subjectId": 2,
+          "ca": 14,
+          "exam": 68,
+          "total": 82
+        },
+        {
+          "subjectId": 3,
+          "ca": 14,
+          "exam": 69,
+          "total": 83
+        },
+        {
+          "subjectId": 4,
+          "ca": 14,
+          "exam": 68,
+          "total": 82
+        },
+        {
+          "subjectId": 5,
+          "ca": 13,
+          "exam": 67,
+          "total": 80
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "studentId": 15,
+      "sessionId": 1,
+      "termId": 2,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 12,
+          "exam": 62,
+          "total": 74
+        },
+        {
+          "subjectId": 2,
+          "ca": 13,
+          "exam": 63,
+          "total": 76
+        },
+        {
+          "subjectId": 3,
+          "ca": 12,
+          "exam": 61,
+          "total": 73
+        },
+        {
+          "subjectId": 4,
+          "ca": 12,
+          "exam": 62,
+          "total": 74
+        },
+        {
+          "subjectId": 5,
+          "ca": 12,
+          "exam": 62,
+          "total": 74
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "studentId": 16,
+      "sessionId": 1,
+      "termId": 2,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 13,
+          "exam": 64,
+          "total": 77
+        },
+        {
+          "subjectId": 2,
+          "ca": 13,
+          "exam": 63,
+          "total": 76
+        },
+        {
+          "subjectId": 3,
+          "ca": 13,
+          "exam": 62,
+          "total": 75
+        },
+        {
+          "subjectId": 4,
+          "ca": 13,
+          "exam": 63,
+          "total": 76
+        },
+        {
+          "subjectId": 5,
+          "ca": 12,
+          "exam": 61,
+          "total": 73
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "studentId": 17,
+      "sessionId": 1,
+      "termId": 2,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 14,
+          "exam": 66,
+          "total": 80
+        },
+        {
+          "subjectId": 2,
+          "ca": 14,
+          "exam": 65,
+          "total": 79
+        },
+        {
+          "subjectId": 3,
+          "ca": 14,
+          "exam": 66,
+          "total": 80
+        },
+        {
+          "subjectId": 4,
+          "ca": 14,
+          "exam": 65,
+          "total": 79
+        },
+        {
+          "subjectId": 5,
+          "ca": 13,
+          "exam": 64,
+          "total": 77
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "studentId": 18,
+      "sessionId": 1,
+      "termId": 2,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 10,
+          "exam": 52,
+          "total": 62
+        },
+        {
+          "subjectId": 2,
+          "ca": 11,
+          "exam": 54,
+          "total": 65
+        },
+        {
+          "subjectId": 3,
+          "ca": 11,
+          "exam": 55,
+          "total": 66
+        },
+        {
+          "subjectId": 4,
+          "ca": 11,
+          "exam": 53,
+          "total": 64
+        },
+        {
+          "subjectId": 5,
+          "ca": 10,
+          "exam": 51,
+          "total": 61
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "studentId": 19,
+      "sessionId": 1,
+      "termId": 2,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 12,
+          "exam": 60,
+          "total": 72
+        },
+        {
+          "subjectId": 2,
+          "ca": 12,
+          "exam": 61,
+          "total": 73
+        },
+        {
+          "subjectId": 3,
+          "ca": 12,
+          "exam": 62,
+          "total": 74
+        },
+        {
+          "subjectId": 4,
+          "ca": 12,
+          "exam": 60,
+          "total": 72
+        },
+        {
+          "subjectId": 5,
+          "ca": 11,
+          "exam": 59,
+          "total": 70
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "studentId": 20,
+      "sessionId": 1,
+      "termId": 2,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 13,
+          "exam": 61,
+          "total": 74
+        },
+        {
+          "subjectId": 2,
+          "ca": 12,
+          "exam": 62,
+          "total": 74
+        },
+        {
+          "subjectId": 3,
+          "ca": 12,
+          "exam": 60,
+          "total": 72
+        },
+        {
+          "subjectId": 4,
+          "ca": 13,
+          "exam": 62,
+          "total": 75
+        },
+        {
+          "subjectId": 5,
+          "ca": 12,
+          "exam": 61,
+          "total": 73
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "studentId": 21,
+      "sessionId": 1,
+      "termId": 2,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 14,
+          "exam": 65,
+          "total": 79
+        },
+        {
+          "subjectId": 2,
+          "ca": 13,
+          "exam": 63,
+          "total": 76
+        },
+        {
+          "subjectId": 3,
+          "ca": 13,
+          "exam": 64,
+          "total": 77
+        },
+        {
+          "subjectId": 4,
+          "ca": 13,
+          "exam": 62,
+          "total": 75
+        },
+        {
+          "subjectId": 5,
+          "ca": 13,
+          "exam": 63,
+          "total": 76
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "studentId": 22,
+      "sessionId": 1,
+      "termId": 2,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 11,
+          "exam": 58,
+          "total": 69
+        },
+        {
+          "subjectId": 2,
+          "ca": 12,
+          "exam": 60,
+          "total": 72
+        },
+        {
+          "subjectId": 3,
+          "ca": 11,
+          "exam": 59,
+          "total": 70
+        },
+        {
+          "subjectId": 4,
+          "ca": 12,
+          "exam": 60,
+          "total": 72
+        },
+        {
+          "subjectId": 5,
+          "ca": 12,
+          "exam": 61,
+          "total": 73
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "studentId": 23,
+      "sessionId": 1,
+      "termId": 2,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 15,
+          "exam": 70,
+          "total": 85
+        },
+        {
+          "subjectId": 2,
+          "ca": 14,
+          "exam": 68,
+          "total": 82
+        },
+        {
+          "subjectId": 3,
+          "ca": 14,
+          "exam": 69,
+          "total": 83
+        },
+        {
+          "subjectId": 4,
+          "ca": 14,
+          "exam": 68,
+          "total": 82
+        },
+        {
+          "subjectId": 5,
+          "ca": 13,
+          "exam": 67,
+          "total": 80
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "studentId": 24,
+      "sessionId": 1,
+      "termId": 2,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 12,
+          "exam": 62,
+          "total": 74
+        },
+        {
+          "subjectId": 2,
+          "ca": 13,
+          "exam": 63,
+          "total": 76
+        },
+        {
+          "subjectId": 3,
+          "ca": 12,
+          "exam": 61,
+          "total": 73
+        },
+        {
+          "subjectId": 4,
+          "ca": 12,
+          "exam": 62,
+          "total": 74
+        },
+        {
+          "subjectId": 5,
+          "ca": 12,
+          "exam": 62,
+          "total": 74
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "studentId": 25,
+      "sessionId": 1,
+      "termId": 2,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 13,
+          "exam": 64,
+          "total": 77
+        },
+        {
+          "subjectId": 2,
+          "ca": 13,
+          "exam": 63,
+          "total": 76
+        },
+        {
+          "subjectId": 3,
+          "ca": 13,
+          "exam": 62,
+          "total": 75
+        },
+        {
+          "subjectId": 4,
+          "ca": 13,
+          "exam": 63,
+          "total": 76
+        },
+        {
+          "subjectId": 5,
+          "ca": 12,
+          "exam": 61,
+          "total": 73
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "studentId": 26,
+      "sessionId": 1,
+      "termId": 2,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 14,
+          "exam": 66,
+          "total": 80
+        },
+        {
+          "subjectId": 2,
+          "ca": 14,
+          "exam": 65,
+          "total": 79
+        },
+        {
+          "subjectId": 3,
+          "ca": 14,
+          "exam": 66,
+          "total": 80
+        },
+        {
+          "subjectId": 4,
+          "ca": 14,
+          "exam": 65,
+          "total": 79
+        },
+        {
+          "subjectId": 5,
+          "ca": 13,
+          "exam": 64,
+          "total": 77
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "studentId": 27,
+      "sessionId": 1,
+      "termId": 2,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 10,
+          "exam": 52,
+          "total": 62
+        },
+        {
+          "subjectId": 2,
+          "ca": 11,
+          "exam": 54,
+          "total": 65
+        },
+        {
+          "subjectId": 3,
+          "ca": 11,
+          "exam": 55,
+          "total": 66
+        },
+        {
+          "subjectId": 4,
+          "ca": 11,
+          "exam": 53,
+          "total": 64
+        },
+        {
+          "subjectId": 5,
+          "ca": 10,
+          "exam": 51,
+          "total": 61
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "studentId": 28,
+      "sessionId": 1,
+      "termId": 2,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 12,
+          "exam": 60,
+          "total": 72
+        },
+        {
+          "subjectId": 2,
+          "ca": 12,
+          "exam": 61,
+          "total": 73
+        },
+        {
+          "subjectId": 3,
+          "ca": 12,
+          "exam": 62,
+          "total": 74
+        },
+        {
+          "subjectId": 4,
+          "ca": 12,
+          "exam": 60,
+          "total": 72
+        },
+        {
+          "subjectId": 5,
+          "ca": 11,
+          "exam": 59,
+          "total": 70
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "studentId": 30,
+      "sessionId": 1,
+      "termId": 2,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 14,
+          "exam": 65,
+          "total": 79
+        },
+        {
+          "subjectId": 2,
+          "ca": 13,
+          "exam": 63,
+          "total": 76
+        },
+        {
+          "subjectId": 3,
+          "ca": 13,
+          "exam": 64,
+          "total": 77
+        },
+        {
+          "subjectId": 4,
+          "ca": 13,
+          "exam": 62,
+          "total": 75
+        },
+        {
+          "subjectId": 5,
+          "ca": 13,
+          "exam": 63,
+          "total": 76
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "studentId": 3,
+      "sessionId": 1,
+      "termId": 3,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 16,
+          "exam": 67,
+          "total": 83
+        },
+        {
+          "subjectId": 2,
+          "ca": 15,
+          "exam": 65,
+          "total": 80
+        },
+        {
+          "subjectId": 3,
+          "ca": 15,
+          "exam": 66,
+          "total": 81
+        },
+        {
+          "subjectId": 4,
+          "ca": 15,
+          "exam": 64,
+          "total": 79
+        },
+        {
+          "subjectId": 5,
+          "ca": 15,
+          "exam": 65,
+          "total": 80
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "studentId": 4,
+      "sessionId": 1,
+      "termId": 3,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 13,
+          "exam": 60,
+          "total": 73
+        },
+        {
+          "subjectId": 2,
+          "ca": 14,
+          "exam": 62,
+          "total": 76
+        },
+        {
+          "subjectId": 3,
+          "ca": 13,
+          "exam": 61,
+          "total": 74
+        },
+        {
+          "subjectId": 4,
+          "ca": 14,
+          "exam": 62,
+          "total": 76
+        },
+        {
+          "subjectId": 5,
+          "ca": 14,
+          "exam": 63,
+          "total": 77
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "studentId": 5,
+      "sessionId": 1,
+      "termId": 3,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 17,
+          "exam": 72,
+          "total": 89
+        },
+        {
+          "subjectId": 2,
+          "ca": 16,
+          "exam": 70,
+          "total": 86
+        },
+        {
+          "subjectId": 3,
+          "ca": 16,
+          "exam": 71,
+          "total": 87
+        },
+        {
+          "subjectId": 4,
+          "ca": 16,
+          "exam": 70,
+          "total": 86
+        },
+        {
+          "subjectId": 5,
+          "ca": 15,
+          "exam": 69,
+          "total": 84
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "studentId": 6,
+      "sessionId": 1,
+      "termId": 3,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 14,
+          "exam": 64,
+          "total": 78
+        },
+        {
+          "subjectId": 2,
+          "ca": 15,
+          "exam": 65,
+          "total": 80
+        },
+        {
+          "subjectId": 3,
+          "ca": 14,
+          "exam": 63,
+          "total": 77
+        },
+        {
+          "subjectId": 4,
+          "ca": 14,
+          "exam": 64,
+          "total": 78
+        },
+        {
+          "subjectId": 5,
+          "ca": 14,
+          "exam": 64,
+          "total": 78
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "studentId": 7,
+      "sessionId": 1,
+      "termId": 3,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 15,
+          "exam": 66,
+          "total": 81
+        },
+        {
+          "subjectId": 2,
+          "ca": 15,
+          "exam": 65,
+          "total": 80
+        },
+        {
+          "subjectId": 3,
+          "ca": 15,
+          "exam": 64,
+          "total": 79
+        },
+        {
+          "subjectId": 4,
+          "ca": 15,
+          "exam": 65,
+          "total": 80
+        },
+        {
+          "subjectId": 5,
+          "ca": 14,
+          "exam": 63,
+          "total": 77
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "studentId": 8,
+      "sessionId": 1,
+      "termId": 3,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 16,
+          "exam": 68,
+          "total": 84
+        },
+        {
+          "subjectId": 2,
+          "ca": 16,
+          "exam": 67,
+          "total": 83
+        },
+        {
+          "subjectId": 3,
+          "ca": 16,
+          "exam": 68,
+          "total": 84
+        },
+        {
+          "subjectId": 4,
+          "ca": 16,
+          "exam": 67,
+          "total": 83
+        },
+        {
+          "subjectId": 5,
+          "ca": 15,
+          "exam": 66,
+          "total": 81
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "studentId": 10,
+      "sessionId": 1,
+      "termId": 3,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 14,
+          "exam": 62,
+          "total": 76
+        },
+        {
+          "subjectId": 2,
+          "ca": 14,
+          "exam": 63,
+          "total": 77
+        },
+        {
+          "subjectId": 3,
+          "ca": 14,
+          "exam": 64,
+          "total": 78
+        },
+        {
+          "subjectId": 4,
+          "ca": 14,
+          "exam": 62,
+          "total": 76
+        },
+        {
+          "subjectId": 5,
+          "ca": 13,
+          "exam": 61,
+          "total": 74
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "studentId": 11,
+      "sessionId": 1,
+      "termId": 3,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 15,
+          "exam": 63,
+          "total": 78
+        },
+        {
+          "subjectId": 2,
+          "ca": 14,
+          "exam": 64,
+          "total": 78
+        },
+        {
+          "subjectId": 3,
+          "ca": 14,
+          "exam": 62,
+          "total": 76
+        },
+        {
+          "subjectId": 4,
+          "ca": 15,
+          "exam": 64,
+          "total": 79
+        },
+        {
+          "subjectId": 5,
+          "ca": 14,
+          "exam": 63,
+          "total": 77
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "studentId": 12,
+      "sessionId": 1,
+      "termId": 3,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 16,
+          "exam": 67,
+          "total": 83
+        },
+        {
+          "subjectId": 2,
+          "ca": 15,
+          "exam": 65,
+          "total": 80
+        },
+        {
+          "subjectId": 3,
+          "ca": 15,
+          "exam": 66,
+          "total": 81
+        },
+        {
+          "subjectId": 4,
+          "ca": 15,
+          "exam": 64,
+          "total": 79
+        },
+        {
+          "subjectId": 5,
+          "ca": 15,
+          "exam": 65,
+          "total": 80
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "studentId": 13,
+      "sessionId": 1,
+      "termId": 3,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 13,
+          "exam": 60,
+          "total": 73
+        },
+        {
+          "subjectId": 2,
+          "ca": 14,
+          "exam": 62,
+          "total": 76
+        },
+        {
+          "subjectId": 3,
+          "ca": 13,
+          "exam": 61,
+          "total": 74
+        },
+        {
+          "subjectId": 4,
+          "ca": 14,
+          "exam": 62,
+          "total": 76
+        },
+        {
+          "subjectId": 5,
+          "ca": 14,
+          "exam": 63,
+          "total": 77
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "studentId": 14,
+      "sessionId": 1,
+      "termId": 3,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 17,
+          "exam": 72,
+          "total": 89
+        },
+        {
+          "subjectId": 2,
+          "ca": 16,
+          "exam": 70,
+          "total": 86
+        },
+        {
+          "subjectId": 3,
+          "ca": 16,
+          "exam": 71,
+          "total": 87
+        },
+        {
+          "subjectId": 4,
+          "ca": 16,
+          "exam": 70,
+          "total": 86
+        },
+        {
+          "subjectId": 5,
+          "ca": 15,
+          "exam": 69,
+          "total": 84
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "studentId": 15,
+      "sessionId": 1,
+      "termId": 3,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 14,
+          "exam": 64,
+          "total": 78
+        },
+        {
+          "subjectId": 2,
+          "ca": 15,
+          "exam": 65,
+          "total": 80
+        },
+        {
+          "subjectId": 3,
+          "ca": 14,
+          "exam": 63,
+          "total": 77
+        },
+        {
+          "subjectId": 4,
+          "ca": 14,
+          "exam": 64,
+          "total": 78
+        },
+        {
+          "subjectId": 5,
+          "ca": 14,
+          "exam": 64,
+          "total": 78
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "studentId": 16,
+      "sessionId": 1,
+      "termId": 3,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 15,
+          "exam": 66,
+          "total": 81
+        },
+        {
+          "subjectId": 2,
+          "ca": 15,
+          "exam": 65,
+          "total": 80
+        },
+        {
+          "subjectId": 3,
+          "ca": 15,
+          "exam": 64,
+          "total": 79
+        },
+        {
+          "subjectId": 4,
+          "ca": 15,
+          "exam": 65,
+          "total": 80
+        },
+        {
+          "subjectId": 5,
+          "ca": 14,
+          "exam": 63,
+          "total": 77
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "studentId": 17,
+      "sessionId": 1,
+      "termId": 3,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 16,
+          "exam": 68,
+          "total": 84
+        },
+        {
+          "subjectId": 2,
+          "ca": 16,
+          "exam": 67,
+          "total": 83
+        },
+        {
+          "subjectId": 3,
+          "ca": 16,
+          "exam": 68,
+          "total": 84
+        },
+        {
+          "subjectId": 4,
+          "ca": 16,
+          "exam": 67,
+          "total": 83
+        },
+        {
+          "subjectId": 5,
+          "ca": 15,
+          "exam": 66,
+          "total": 81
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "studentId": 18,
+      "sessionId": 1,
+      "termId": 3,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 11,
+          "exam": 54,
+          "total": 65
+        },
+        {
+          "subjectId": 2,
+          "ca": 12,
+          "exam": 56,
+          "total": 68
+        },
+        {
+          "subjectId": 3,
+          "ca": 12,
+          "exam": 57,
+          "total": 69
+        },
+        {
+          "subjectId": 4,
+          "ca": 12,
+          "exam": 55,
+          "total": 67
+        },
+        {
+          "subjectId": 5,
+          "ca": 11,
+          "exam": 53,
+          "total": 64
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "studentId": 19,
+      "sessionId": 1,
+      "termId": 3,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 14,
+          "exam": 62,
+          "total": 76
+        },
+        {
+          "subjectId": 2,
+          "ca": 14,
+          "exam": 63,
+          "total": 77
+        },
+        {
+          "subjectId": 3,
+          "ca": 14,
+          "exam": 64,
+          "total": 78
+        },
+        {
+          "subjectId": 4,
+          "ca": 14,
+          "exam": 62,
+          "total": 76
+        },
+        {
+          "subjectId": 5,
+          "ca": 13,
+          "exam": 61,
+          "total": 74
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "studentId": 20,
+      "sessionId": 1,
+      "termId": 3,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 15,
+          "exam": 63,
+          "total": 78
+        },
+        {
+          "subjectId": 2,
+          "ca": 14,
+          "exam": 64,
+          "total": 78
+        },
+        {
+          "subjectId": 3,
+          "ca": 14,
+          "exam": 62,
+          "total": 76
+        },
+        {
+          "subjectId": 4,
+          "ca": 15,
+          "exam": 64,
+          "total": 79
+        },
+        {
+          "subjectId": 5,
+          "ca": 14,
+          "exam": 63,
+          "total": 77
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "studentId": 21,
+      "sessionId": 1,
+      "termId": 3,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 16,
+          "exam": 67,
+          "total": 83
+        },
+        {
+          "subjectId": 2,
+          "ca": 15,
+          "exam": 65,
+          "total": 80
+        },
+        {
+          "subjectId": 3,
+          "ca": 15,
+          "exam": 66,
+          "total": 81
+        },
+        {
+          "subjectId": 4,
+          "ca": 15,
+          "exam": 64,
+          "total": 79
+        },
+        {
+          "subjectId": 5,
+          "ca": 15,
+          "exam": 65,
+          "total": 80
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "studentId": 22,
+      "sessionId": 1,
+      "termId": 3,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 13,
+          "exam": 60,
+          "total": 73
+        },
+        {
+          "subjectId": 2,
+          "ca": 14,
+          "exam": 62,
+          "total": 76
+        },
+        {
+          "subjectId": 3,
+          "ca": 13,
+          "exam": 61,
+          "total": 74
+        },
+        {
+          "subjectId": 4,
+          "ca": 14,
+          "exam": 62,
+          "total": 76
+        },
+        {
+          "subjectId": 5,
+          "ca": 14,
+          "exam": 63,
+          "total": 77
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "studentId": 23,
+      "sessionId": 1,
+      "termId": 3,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 17,
+          "exam": 72,
+          "total": 89
+        },
+        {
+          "subjectId": 2,
+          "ca": 16,
+          "exam": 70,
+          "total": 86
+        },
+        {
+          "subjectId": 3,
+          "ca": 16,
+          "exam": 71,
+          "total": 87
+        },
+        {
+          "subjectId": 4,
+          "ca": 16,
+          "exam": 70,
+          "total": 86
+        },
+        {
+          "subjectId": 5,
+          "ca": 15,
+          "exam": 69,
+          "total": 84
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "studentId": 24,
+      "sessionId": 1,
+      "termId": 3,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 14,
+          "exam": 64,
+          "total": 78
+        },
+        {
+          "subjectId": 2,
+          "ca": 15,
+          "exam": 65,
+          "total": 80
+        },
+        {
+          "subjectId": 3,
+          "ca": 14,
+          "exam": 63,
+          "total": 77
+        },
+        {
+          "subjectId": 4,
+          "ca": 14,
+          "exam": 64,
+          "total": 78
+        },
+        {
+          "subjectId": 5,
+          "ca": 14,
+          "exam": 64,
+          "total": 78
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "studentId": 25,
+      "sessionId": 1,
+      "termId": 3,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 15,
+          "exam": 66,
+          "total": 81
+        },
+        {
+          "subjectId": 2,
+          "ca": 15,
+          "exam": 65,
+          "total": 80
+        },
+        {
+          "subjectId": 3,
+          "ca": 15,
+          "exam": 64,
+          "total": 79
+        },
+        {
+          "subjectId": 4,
+          "ca": 15,
+          "exam": 65,
+          "total": 80
+        },
+        {
+          "subjectId": 5,
+          "ca": 14,
+          "exam": 63,
+          "total": 77
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "studentId": 26,
+      "sessionId": 1,
+      "termId": 3,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 16,
+          "exam": 68,
+          "total": 84
+        },
+        {
+          "subjectId": 2,
+          "ca": 16,
+          "exam": 67,
+          "total": 83
+        },
+        {
+          "subjectId": 3,
+          "ca": 16,
+          "exam": 68,
+          "total": 84
+        },
+        {
+          "subjectId": 4,
+          "ca": 16,
+          "exam": 67,
+          "total": 83
+        },
+        {
+          "subjectId": 5,
+          "ca": 15,
+          "exam": 66,
+          "total": 81
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "studentId": 27,
+      "sessionId": 1,
+      "termId": 3,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 11,
+          "exam": 54,
+          "total": 65
+        },
+        {
+          "subjectId": 2,
+          "ca": 12,
+          "exam": 56,
+          "total": 68
+        },
+        {
+          "subjectId": 3,
+          "ca": 12,
+          "exam": 57,
+          "total": 69
+        },
+        {
+          "subjectId": 4,
+          "ca": 12,
+          "exam": 55,
+          "total": 67
+        },
+        {
+          "subjectId": 5,
+          "ca": 11,
+          "exam": 53,
+          "total": 64
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "studentId": 28,
+      "sessionId": 1,
+      "termId": 3,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 13,
+          "exam": 60,
+          "total": 73
+        },
+        {
+          "subjectId": 2,
+          "ca": 13,
+          "exam": 61,
+          "total": 74
+        },
+        {
+          "subjectId": 3,
+          "ca": 13,
+          "exam": 62,
+          "total": 75
+        },
+        {
+          "subjectId": 4,
+          "ca": 13,
+          "exam": 60,
+          "total": 73
+        },
+        {
+          "subjectId": 5,
+          "ca": 12,
+          "exam": 59,
+          "total": 71
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "studentId": 30,
+      "sessionId": 1,
+      "termId": 3,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 15,
+          "exam": 63,
+          "total": 78
+        },
+        {
+          "subjectId": 2,
+          "ca": 14,
+          "exam": 64,
+          "total": 78
+        },
+        {
+          "subjectId": 3,
+          "ca": 14,
+          "exam": 62,
+          "total": 76
+        },
+        {
+          "subjectId": 4,
+          "ca": 15,
+          "exam": 64,
+          "total": 79
+        },
+        {
+          "subjectId": 5,
+          "ca": 14,
+          "exam": 63,
+          "total": 77
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "studentId": 2,
+      "sessionId": 1,
+      "termId": 3,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 0,
+          "exam": 0,
+          "total": 0
+        },
+        {
+          "subjectId": 2,
+          "ca": 0,
+          "exam": 0,
+          "total": 0
+        },
+        {
+          "subjectId": 3,
+          "ca": 0,
+          "exam": 0,
+          "total": 0
+        },
+        {
+          "subjectId": 4,
+          "ca": 0,
+          "exam": 0,
+          "total": 0
+        },
+        {
+          "subjectId": 5,
+          "ca": 0,
+          "exam": 0,
+          "total": 0
+        }
+      ]
+    }
+  ]
+}
