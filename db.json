@@ -307,44 +307,6 @@
       ]
     },
     {
-      "id": "3",
-      "studentId": 3,
-      "sessionId": 1,
-      "termId": 1,
-      "scores": [
-        {
-          "subjectId": 1,
-          "ca": 13,
-          "exam": 65,
-          "total": 78
-        },
-        {
-          "subjectId": 2,
-          "ca": 14,
-          "exam": 68,
-          "total": 82
-        },
-        {
-          "subjectId": 3,
-          "ca": 13,
-          "exam": 66,
-          "total": 79
-        },
-        {
-          "subjectId": 4,
-          "ca": 15,
-          "exam": 70,
-          "total": 85
-        },
-        {
-          "subjectId": 5,
-          "ca": 15,
-          "exam": 73,
-          "total": 88
-        }
-      ]
-    },
-    {
       "id": "4",
       "studentId": 4,
       "sessionId": 1,
@@ -1333,44 +1295,6 @@
       ]
     },
     {
-      "id": "33",
-      "studentId": 3,
-      "sessionId": 1,
-      "termId": 2,
-      "scores": [
-        {
-          "subjectId": 1,
-          "ca": 14,
-          "exam": 65,
-          "total": 79
-        },
-        {
-          "subjectId": 2,
-          "ca": 13,
-          "exam": 63,
-          "total": 76
-        },
-        {
-          "subjectId": 3,
-          "ca": 13,
-          "exam": 64,
-          "total": 77
-        },
-        {
-          "subjectId": 4,
-          "ca": 13,
-          "exam": 62,
-          "total": 75
-        },
-        {
-          "subjectId": 5,
-          "ca": 13,
-          "exam": 63,
-          "total": 76
-        }
-      ]
-    },
-    {
       "id": "34",
       "studentId": 4,
       "sessionId": 1,
@@ -2317,44 +2241,6 @@
           "ca": 13,
           "exam": 63,
           "total": 76
-        }
-      ]
-    },
-    {
-      "id": "63",
-      "studentId": 3,
-      "sessionId": 1,
-      "termId": 3,
-      "scores": [
-        {
-          "subjectId": 1,
-          "ca": 16,
-          "exam": 67,
-          "total": 83
-        },
-        {
-          "subjectId": 2,
-          "ca": 15,
-          "exam": 65,
-          "total": 80
-        },
-        {
-          "subjectId": 3,
-          "ca": 15,
-          "exam": 66,
-          "total": 81
-        },
-        {
-          "subjectId": 4,
-          "ca": 15,
-          "exam": 64,
-          "total": 79
-        },
-        {
-          "subjectId": 5,
-          "ca": 15,
-          "exam": 65,
-          "total": 80
         }
       ]
     },
@@ -3309,7 +3195,7 @@
       ]
     },
     {
-      "id": 33,
+      "id": "33",
       "studentId": 2,
       "sessionId": 1,
       "termId": 3,
