@@ -1295,44 +1295,6 @@
       ]
     },
     {
-      "id": "34",
-      "studentId": 4,
-      "sessionId": 1,
-      "termId": 2,
-      "scores": [
-        {
-          "subjectId": 1,
-          "ca": 11,
-          "exam": 58,
-          "total": 69
-        },
-        {
-          "subjectId": 2,
-          "ca": 12,
-          "exam": 60,
-          "total": 72
-        },
-        {
-          "subjectId": 3,
-          "ca": 11,
-          "exam": 59,
-          "total": 70
-        },
-        {
-          "subjectId": 4,
-          "ca": 12,
-          "exam": 60,
-          "total": 72
-        },
-        {
-          "subjectId": 5,
-          "ca": 12,
-          "exam": 61,
-          "total": 73
-        }
-      ]
-    },
-    {
       "id": "35",
       "studentId": 5,
       "sessionId": 1,
@@ -3196,6 +3158,44 @@
     },
     {
       "id": "33",
+      "studentId": 2,
+      "sessionId": 1,
+      "termId": 3,
+      "scores": [
+        {
+          "subjectId": 1,
+          "ca": 0,
+          "exam": 0,
+          "total": 0
+        },
+        {
+          "subjectId": 2,
+          "ca": 0,
+          "exam": 0,
+          "total": 0
+        },
+        {
+          "subjectId": 3,
+          "ca": 0,
+          "exam": 0,
+          "total": 0
+        },
+        {
+          "subjectId": 4,
+          "ca": 0,
+          "exam": 0,
+          "total": 0
+        },
+        {
+          "subjectId": 5,
+          "ca": 0,
+          "exam": 0,
+          "total": 0
+        }
+      ]
+    },
+    {
+      "id": 34,
       "studentId": 2,
       "sessionId": 1,
       "termId": 3,
