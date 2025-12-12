@@ -95,7 +95,7 @@ Note: This will delete the student AND all their result records permanently.
 
 live link: https://smart-results-viewer-1lju.vercel.app/
 
-link to slides: https://docs.google.com/presentation/d/18nbGEEEXC47hYzTMWi3j7J-t-WMRlH_jgqWnewxfRY8/edit?usp=sharing
+link to slides: https://docs.google.com/presentation/d/18nbGEEEXC47hYzTMWi3j7J-t-WMRlH_jgqWnewxfRY8/edxport/pdf
 
 link to screenshots folder: https://drive.google.com/drive/folders/1IyJ8rd0wVCQhz7ABrlg3g3U0DAs41yYi?usp=drive_link
 
