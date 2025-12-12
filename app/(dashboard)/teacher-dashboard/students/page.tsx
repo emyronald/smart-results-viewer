@@ -1,13 +1,10 @@
-import { get } from "@/lib/api";
+"use client";
 
-import { Student } from "@/types/types";
 import StudentsTable from "./StudentsTable";
 
-export default async function Page() {
-  const students = await get<Student[]>("/students");
-
+export default function Page() {
   return (
-    <main className="p-6 bg-gray-600min-h-screen ">
+    <main className="p-6 bg-gray-600 min-h-screen">
       <div className="max-w-6xl mx-auto">
         <div className="flex items-center justify-between mb-6">
           <div>
@@ -16,10 +13,10 @@ export default async function Page() {
               All students across your classes
             </p>
           </div>
-          <div className="flex items-center gap-3"></div>
         </div>
 
-        <StudentsTable initialStudents={students} />
+        {/* StudentsTable now fetches data itself */}
+        <StudentsTable />
       </div>
     </main>
   );

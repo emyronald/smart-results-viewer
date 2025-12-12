@@ -1,23 +1,38 @@
 "use client";
 
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import { get, remove, post } from "@/lib/api";
 import { toast } from "sonner";
 import { useRouter } from "next/navigation";
 import { Student } from "@/types/types";
 
-type Props = {
-  initialStudents: Student[];
-};
+type Result = { id: number | string };
 
-export default function StudentsTable({ initialStudents }: Props) {
+export default function StudentsTable() {
   const [query, setQuery] = useState("");
-  const [students, setStudents] = useState<Student[]>(initialStudents);
+  const [students, setStudents] = useState<Student[]>([]);
+  const [loading, setLoading] = useState(true);
   const [isDeletingId, setIsDeletingId] = useState<string | null>(null);
   const [showForm, setShowForm] = useState(false);
   const [formData, setFormData] = useState({ name: "", regNo: "", class: "" });
   const [isCreating, setIsCreating] = useState(false);
   const router = useRouter();
+
+  // Fetch students on mount
+  useEffect(() => {
+    async function fetchStudents() {
+      try {
+        const data = await get<Student[]>("/students");
+        setStudents(data);
+      } catch (err) {
+        console.error("Failed to fetch students", err);
+        toast.error("Failed to load students. Please try again.");
+      } finally {
+        setLoading(false);
+      }
+    }
+    fetchStudents();
+  }, []);
 
   const q = query.trim().toLowerCase();
 
@@ -30,8 +45,7 @@ export default function StudentsTable({ initialStudents }: Props) {
     });
   }, [students, q]);
 
-  type Result = { id: number | string };
-
+  // Delete student and results
   async function handleDelete(e: React.MouseEvent, studentId: string) {
     e.stopPropagation();
     const ok = window.confirm(
@@ -42,22 +56,17 @@ export default function StudentsTable({ initialStudents }: Props) {
     try {
       setIsDeletingId(studentId);
 
-      // fetch results for the student
       const results = await get<Result[]>(`/results?studentId=${studentId}`);
 
-      // delete all results
       await Promise.all(
         results.map((r) =>
-          remove(`/results/${r.id}`).catch((err) => {
-            console.warn("failed to delete result", r.id, err);
-          })
+          remove(`/results/${r.id}`).catch((err) =>
+            console.warn("Failed to delete result", r.id, err)
+          )
         )
       );
 
-      // delete student
       await remove(`/students/${studentId}`);
-
-      // update local state
       setStudents((prev) => prev.filter((s) => s.id !== studentId));
 
       toast.success("Student and their results deleted");
@@ -71,12 +80,9 @@ export default function StudentsTable({ initialStudents }: Props) {
     }
   }
 
+  // Create new student
   async function handleCreateStudent() {
-    if (
-      !formData.name.trim() ||
-      !formData.regNo.trim() ||
-      !formData.class.trim()
-    ) {
+    if (!formData.name.trim() || !formData.regNo.trim() || !formData.class.trim()) {
       toast.error("Please fill in all fields");
       return;
     }
@@ -84,20 +90,16 @@ export default function StudentsTable({ initialStudents }: Props) {
     try {
       setIsCreating(true);
 
-      // fetch all students to check for duplicates
       const allStudents = await get<Student[]>("/students");
 
-      // Check if student with same regNo already exists
       const existingByRegNo = allStudents.some(
         (s) => (s as any).regNo === formData.regNo
       );
       if (existingByRegNo) {
         toast.error("Student with this registration number already exists");
-        setIsCreating(false);
         return;
       }
 
-      // Check if student with same name and class exists
       const existingByNameAndClass = allStudents.some(
         (s) =>
           s.name.toLowerCase() === formData.name.toLowerCase() &&
@@ -105,25 +107,13 @@ export default function StudentsTable({ initialStudents }: Props) {
       );
       if (existingByNameAndClass) {
         toast.error("Student already exists in this class");
-        setIsCreating(false);
         return;
       }
 
-      // Create new student
-      const newStudent = {
-        name: formData.name,
-        regNo: formData.regNo,
-        class: formData.class,
-      };
-
-      const created = await post<Student>("/students", newStudent);
-
-      // Update local students state
+      const created = await post<Student>("/students", formData);
       setStudents((prev) => [...prev, created]);
 
       toast.success(`Student ${created.name} created successfully!`);
-
-      // Reset form and close modal
       setFormData({ name: "", regNo: "", class: "" });
       setShowForm(false);
     } catch (err: any) {
@@ -136,9 +126,12 @@ export default function StudentsTable({ initialStudents }: Props) {
     }
   }
 
+  if (loading) return <div className="text-white p-6">Loading students...</div>;
+
   return (
     <div className="black-bg shadow-sm rounded-md overflow-hidden border-gray-600 border">
-      <div className="p-4 border-b flex items-center gap-3  ">
+      {/* Search & Create */}
+      <div className="p-4 border-b flex items-center gap-3">
         <input
           value={query}
           onChange={(e) => setQuery(e.target.value)}
@@ -159,6 +152,7 @@ export default function StudentsTable({ initialStudents }: Props) {
         </button>
       </div>
 
+      {/* New Student Form */}
       {showForm && (
         <div className="p-4 border-b bg-gray-800">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-3 mb-4">
@@ -166,25 +160,19 @@ export default function StudentsTable({ initialStudents }: Props) {
               type="text"
               placeholder="Full Name"
               value={formData.name}
-              onChange={(e) =>
-                setFormData({ ...formData, name: e.target.value })
-              }
+              onChange={(e) => setFormData({ ...formData, name: e.target.value })}
               className="px-3 py-2 rounded-md border border-gray-600 bg-gray-700 text-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-400"
             />
             <input
               type="text"
-              placeholder="Registration No (e.g., JS1/123)"
+              placeholder="Registration No"
               value={formData.regNo}
-              onChange={(e) =>
-                setFormData({ ...formData, regNo: e.target.value })
-              }
+              onChange={(e) => setFormData({ ...formData, regNo: e.target.value })}
               className="px-3 py-2 rounded-md border border-gray-600 bg-gray-700 text-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-400"
             />
             <select
               value={formData.class}
-              onChange={(e) =>
-                setFormData({ ...formData, class: e.target.value })
-              }
+              onChange={(e) => setFormData({ ...formData, class: e.target.value })}
               className="px-3 py-2 rounded-md border border-gray-600 bg-gray-700 text-white text-sm focus:outline-none focus:ring-2 focus:ring-indigo-400"
             >
               <option value="">Select Class</option>
@@ -217,22 +205,15 @@ export default function StudentsTable({ initialStudents }: Props) {
         </div>
       )}
 
+      {/* Students Table */}
       <div className="overflow-auto">
-        <table className="min-w-full table-auto ">
-          <thead className="">
+        <table className="min-w-full table-auto">
+          <thead>
             <tr>
-              <th className="text-left px-4 py-3 text-xs text-gray-600">
-                Student
-              </th>
-              <th className="text-left px-4 py-3 text-xs text-gray-600 hidden md:table-cell">
-                Reg No
-              </th>
-              <th className="text-left px-4 py-3 text-xs text-gray-600 hidden md:table-cell">
-                Class
-              </th>
-              <th className="text-left px-4 py-3 text-xs text-gray-600">
-                Actions
-              </th>
+              <th className="text-left px-4 py-3 text-xs text-gray-600">Student</th>
+              <th className="text-left px-4 py-3 text-xs text-gray-600 hidden md:table-cell">Reg No</th>
+              <th className="text-left px-4 py-3 text-xs text-gray-600 hidden md:table-cell">Class</th>
+              <th className="text-left px-4 py-3 text-xs text-gray-600">Actions</th>
             </tr>
           </thead>
           <tbody className="divide-y divide-gray-600">
@@ -241,14 +222,7 @@ export default function StudentsTable({ initialStudents }: Props) {
                 key={s.id}
                 className="hover:bg-gray-700 cursor-pointer"
                 tabIndex={0}
-                onClick={() =>
-                  router.push(`/teacher-dashboard/students/${s.id}`)
-                }
-                onKeyDown={(e) => {
-                  if (e.key === "Enter" || e.key === " ") {
-                    router.push(`/teacher-dashboard/students/${s.id}`);
-                  }
-                }}
+                onClick={() => router.push(`/teacher-dashboard/students/${s.id}`)}
               >
                 <td className="px-4 py-3">
                   <div className="flex items-center gap-3">
@@ -261,12 +235,8 @@ export default function StudentsTable({ initialStudents }: Props) {
                         .toUpperCase()}
                     </div>
                     <div>
-                      <div className="text-sm font-medium text-white">
-                        {s.name}
-                      </div>
-                      <div className="text-xs text-gray-500">
-                        {(s as any).email ?? ""}
-                      </div>
+                      <div className="text-sm font-medium text-white">{s.name}</div>
+                      <div className="text-xs text-gray-500">{(s as any).email ?? ""}</div>
                     </div>
                   </div>
                 </td>
@@ -278,35 +248,29 @@ export default function StudentsTable({ initialStudents }: Props) {
                     {(s as any).class}
                   </span>
                 </td>
-                <td className="px-4 py-3 text-sm">
-                  <div className="flex items-center gap-3">
-                    <button
-                      onClick={(e) => {
-                        e.stopPropagation();
-                        router.push(`/teacher-dashboard/students/${s.id}`);
-                      }}
-                      className="text-indigo-400 hover:underline text-sm"
-                    >
-                      Open
-                    </button>
-
-                    <button
-                      onClick={(e) => handleDelete(e, s.id)}
-                      disabled={isDeletingId === s.id}
-                      className="ml-3 text-red-400 hover:text-red-500 text-sm"
-                    >
-                      {isDeletingId === s.id ? "Deleting..." : "Delete"}
-                    </button>
-                  </div>
+                <td className="px-4 py-3 text-sm flex gap-3">
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      router.push(`/teacher-dashboard/students/${s.id}`);
+                    }}
+                    className="text-indigo-400 hover:underline text-sm"
+                  >
+                    Open
+                  </button>
+                  <button
+                    onClick={(e) => handleDelete(e, s.id)}
+                    disabled={isDeletingId === s.id}
+                    className="text-red-400 hover:text-red-500 text-sm"
+                  >
+                    {isDeletingId === s.id ? "Deleting..." : "Delete"}
+                  </button>
                 </td>
               </tr>
             ))}
             {filtered.length === 0 && (
               <tr>
-                <td
-                  colSpan={4}
-                  className="px-4 py-6 text-center text-sm text-gray-500"
-                >
+                <td colSpan={4} className="px-4 py-6 text-center text-sm text-gray-500">
                   No students found
                 </td>
               </tr>
