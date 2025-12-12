@@ -11,20 +11,7 @@ export default function Home() {
     <main className="flex justify-center items-center min-h-screen bg-gray-800 text-white">
       <div className="flex flex-col items-center justify-between p-5 gap-5">
         <p className="flex text-4xl sm:text-5xl lg:text-6xl  font-bold -mb-5">
-          <BlurText
-            text="Welcome to Edu"
-            delay={150}
-            animateBy="words"
-            direction="top"
-          />
-          <BlurText
-            text="X"
-            className="text-blue-500 t "
-            delay={150}
-            animateBy="words"
-            direction="top"
-          />
-          .
+          Welcome to Edu<span className="text-sky-600">X</span>.
         </p>
         <h1 className="text-4xl sm:text-5xl lg:text-6xl  text-center">
           School Management Made
