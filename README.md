@@ -99,7 +99,7 @@ live link: https://smart-results-viewer-1lju.vercel.app/
 link to slides: https://docs.google.com/presentation/d/18nbGEEEXC47hYzTMWi3j7J-t-WMRlH_jgqWnewxfRY8/export/pdf
 
 
-link to screenshots folder: https://drive.google.com/drive/folders/1IyJ8rd0wVCQhz7ABrlg3g3U0DAs41yYi?usp=drive_link
+link to screenshots folder: https://github.com/emyronald/smart-results-viewer/tree/main/screenshots
 
 Colour Palette
 
